@@ -1,0 +1,33 @@
+.display {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+  margin: 5px 5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  top: 10px;
+  position: absolute;
+  border: 0.1px solid rgba(167, 164, 164,0.3);
+}
+.input{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.input{
+  padding: 10px;
+  text-align: right;
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  letter-spacing: 1.5px;
+}
+
+.input::placeholder{
+  color:white;
+}
+
+
+
